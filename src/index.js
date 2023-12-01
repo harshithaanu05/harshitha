@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,45 +10,8 @@ root.render(
     <App />
   </React.StrictMode>
 );
-// function College(){
-//   function clicking(){
-//     alert("Button is clicked")
-//   }
-//    return <button onDoubleClick={clicking}>click here</button>
-// }
-// const root1=ReactDOM.createRoot(document.getElementById('root'))
-//   root1.render(<College/>)
 
-//   function Department(){
-//     return(<div>
-//       <College/>
-//       <h2>ECE department</h2>
-//     </div>)
-//   }
-//   const root2=ReactDOM.createRoot(document.getElementById('root'))
-//   root2.render(<Department/>)
-
-//   function Section(props){
-// return(
-//   <div>,
-//     <College/>
-//     <Department/>
-//     <p>name is {props.sec.name}</p>
-//   </div>
-// )
-// }
-// function Student(){
-//   const a={
-//     name:"Harshitha",
-//     roll: 40
-//   }
-//   return(
-//     <div>
-// <Section  sec={a}></Section>
-//     </div>
-//   )
-// }
-// const root4=ReactDOM.createRoot(document.getElementById('root'))
-// root4.render(<Student/>)
-
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
